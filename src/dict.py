@@ -1,0 +1,143 @@
+dic_prensa_españa={
+    'elmundo':{
+        'url':'https://www.elmundo.es/',
+        'class':'ue-c-cover-content__headline',
+        'cookies':{},
+        'headers':{},
+        'sep':'h2',
+    },
+    'elpais':{
+        'url':'https://elpais.com/',
+        'class':'c_t',
+        'cookies':{},
+        'headers':{},
+        'sep':'h2',
+    },
+    'cincodias':{
+        'url':'https://cincodias.elpais.com/',
+        'class':'c_t',
+        'cookies':{},
+        'headers':{},
+        'sep':'h2',
+    },
+    'lavanguardia':{
+        'url':'https://www.expansion.com/',
+        'class':'ue-c-cover-content__headline',
+        'cookies':{},
+        'headers':{},
+        'sep':'h2',
+    },
+    'eleconomista':{
+        'url':'https://www.eleconomista.es/',
+        'class':'h4',
+        'cookies':{},
+        'headers':{    
+            'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36',
+        },
+        'sep':'h2',
+    },
+    'expansion':{
+        'url':'https://www.expansion.com/',
+        'class':'ue-c-cover-content__headline',
+        'cookies':{},
+        'headers':{},
+        'sep':'h2',
+    },    
+    'economiadigital':{
+        'url':'https://www.economiadigital.es/',
+        'class':'entry-title',
+        'cookies':{},
+        'headers':{},
+        'sep':'h2',
+    },
+    'elespanol':{
+        'url':'https://www.elespanol.com/',
+        'class':'art__title',
+        'cookies':{},
+        'headers':{},
+        'sep':'h2',
+    },
+    'okdiario':{
+        'url':'https://okdiario.com/',
+        'class':'segmento-title',
+        'cookies':{},
+        'headers':{    
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36',
+        },
+        'sep':'h2',
+    },
+    'eldiario.es':{
+        'url':'https://www.eldiario.es/',
+        'class':'ni-title',
+        'cookies':{},
+        'headers':{},
+    
+        'sep':'h2',
+    },   
+    'huffingtonpost':{
+        'url':'https://www.huffingtonpost.es/',
+        'class':'c-article__title size-5',
+        'cookies':{},
+        'headers':{},
+        'sep':'h2',
+    },
+    
+}
+
+dic_prensa_inter ={
+    'reuters':{
+        'url':'https://www.reuters.com/business/finance/',
+        'class':'media-story-card__body__3tRWy',
+        'cookies':{},
+        'headers':{},
+        'sep':'div',
+    },
+ 
+    'theguardian':{
+        'url':'https://www.theguardian.com/uk/business',
+        'class':'dcr-12hccii',
+        'cookies':{},
+        'headers':{},
+        'sep':'h3',
+    },
+    'apnews':{
+        'url':'https://apnews.com/hub/financial-markets',
+        'class':'PagePromo-description',
+        'cookies':{},
+        'headers':{},
+        'sep':'div',
+    },
+   'wsj':{
+        'url':'https://www.wsj.com/finance',
+        'class':'css-fsvegl',
+        'cookies':{},
+        'headers':{
+                'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+                },
+        'sep':'h3',
+    },
+    'wsj2':{
+        'url':'https://www.wsj.com/finance',
+        'class':'e1rxbks4 css-5v950e-HeadlineTextBlock',
+        'cookies':{},
+        'headers':{
+                'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+                },
+        'sep':'p',
+    },
+    'ft':{
+        'url':'https://www.ft.com/markets',
+        'class':'o-teaser__heading',
+        'cookies':{},
+        'headers':{},
+        'sep':'div',
+    },
+    'yahoo':{
+        'class':'Fz(14px)--md1100 Lh(16px)--md1100 Fw(b) Fz(16px) Lh(19px) LineClamp(3,60px) Va(m) Tov(e) Mt(5px)',
+        'url':'https://finance.yahoo.com/',
+        'cookies':{},
+        'headers':{},
+        'sep':'h3',
+    }
+
+}
